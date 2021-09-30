@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+
+body {
+  font-family: "Maven Pro", serif;
+  background-color: black;
+}
+
+.header {
+  font-size: large;
+  font-weight: 700;
+  color: white;
+  background: rgb(180, 188, 227);
+  background: linear-gradient(
+    70deg,
+    rgba(180, 188, 227, 1) 0%,
+    rgba(215, 191, 217, 1) 100%
+  );
+}
+
+/* .link {
+  ":visited": {
+    color: "purple";
+  }
+} */
