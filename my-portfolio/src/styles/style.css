@@ -2,19 +2,24 @@
 
 body {
   font-family: "Maven Pro", serif;
-  background-color: black;
+  font-size: xx-large;
 }
 
 .header {
   font-size: large;
   font-weight: 700;
-  color: white;
-  background: rgb(180, 188, 227);
+  background: rgb(0, 38, 142);
   background: linear-gradient(
-    70deg,
-    rgba(180, 188, 227, 1) 0%,
-    rgba(215, 191, 217, 1) 100%
+    90deg,
+    rgba(0, 38, 142, 1) 0%,
+    rgba(108, 0, 100, 1) 100%
   );
+}
+
+.profilepic {
+  width: 45%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 1em gold, 0 0 1em red;
 }
 
 /* .link {

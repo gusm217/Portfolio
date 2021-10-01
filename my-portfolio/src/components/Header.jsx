@@ -7,18 +7,18 @@ export default function Header() {
     <div className="header d-flex justify-content-end p-3 pe-5">
       <BrowserRouter>
         <section className="mx-4">
-          <Link style={{ textDecoration: "none", color: "black" }} to="/">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
             HOME
           </Link>
         </section>
         <section className="mx-4">
-          <Link style={{ textDecoration: "none", color: "black" }} to="/about">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/about">
             ABOUT
           </Link>
         </section>
         <section className="mx-4">
           <Link
-            style={{ textDecoration: "none", color: "black" }}
+            style={{ textDecoration: "none", color: "white" }}
             to="/portfolio"
           >
             PORTFOLIO
@@ -26,7 +26,7 @@ export default function Header() {
         </section>
         <section className="mx-4">
           <Link
-            style={{ textDecoration: "none", color: "black" }}
+            style={{ textDecoration: "none", color: "white" }}
             to="/contact"
           >
             CONTACT
