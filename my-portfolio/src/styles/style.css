@@ -4,6 +4,7 @@ body {
   font-family: "Maven Pro", serif;
   font-size: larger;
   color: white;
+  line-height: 1.6;
 }
 
 .header {
@@ -31,4 +32,12 @@ body {
 
 .gap {
   margin-top: 200px;
+}
+
+.ouropreto-img {
+  border-radius: 20px;
+}
+
+.about::first-letter {
+  font-size: 5em;
 }

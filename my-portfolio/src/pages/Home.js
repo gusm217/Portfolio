@@ -28,8 +28,6 @@ export default function Home() {
               visit."
             </p>
           </section>
-          {/* colocar as stacks */}
-          {/* <section></section> */}
         </div>
         <Contact />
       </section>
