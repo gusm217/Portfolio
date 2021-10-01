@@ -4,16 +4,16 @@ import "../styles/style.css";
 
 export default function Header() {
   return (
-    <div className="header d-flex justify-content-end p-3 pe-5">
+    <div className="header navbar d-flex justify-content-end p-3 pe-5">
       <BrowserRouter>
         <section className="mx-4">
           <Link style={{ textDecoration: "none", color: "white" }} to="/">
-            HOME
+            home
           </Link>
         </section>
         <section className="mx-4">
           <Link style={{ textDecoration: "none", color: "white" }} to="/about">
-            ABOUT
+            about
           </Link>
         </section>
         <section className="mx-4">
@@ -21,16 +21,16 @@ export default function Header() {
             style={{ textDecoration: "none", color: "white" }}
             to="/portfolio"
           >
-            PORTFOLIO
+            projects
           </Link>
         </section>
-        <section className="mx-4">
-          <Link
+        <section>
+          <a
             style={{ textDecoration: "none", color: "white" }}
-            to="/contact"
+            href="#contact-me-section"
           >
-            CONTACT
-          </Link>
+            contact
+          </a>
         </section>
       </BrowserRouter>
     </div>

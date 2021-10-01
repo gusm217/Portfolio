@@ -2,6 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import profilepic from "../images/profilepic.png";
+import Contact from "../components/Contact";
 import "../styles/style.css";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     <div>
       <Header />
       <section className="bg-black container-fluid">
-        <div className="d-flex flex-column align-items-center vh-100">
+        <div className="d-flex flex-column align-items-center">
           <section className="col-6 d-flex justify-content-center mt-5">
             <img
               className="profilepic"
@@ -30,6 +31,7 @@ export default function Home() {
           {/* colocar as stacks */}
           {/* <section></section> */}
         </div>
+        <Contact />
       </section>
     </div>
   );

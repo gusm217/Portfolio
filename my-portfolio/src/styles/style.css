@@ -2,7 +2,8 @@
 
 body {
   font-family: "Maven Pro", serif;
-  font-size: xx-large;
+  font-size: larger;
+  color: white;
 }
 
 .header {
@@ -27,3 +28,7 @@ body {
     color: "purple";
   }
 } */
+
+.gap {
+  margin-top: 200px;
+}
