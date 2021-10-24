@@ -12,6 +12,8 @@ import redux from "../images/redux.png";
 import ouropreto from "../images/ouropreto.jpg";
 import express from "../images/express.png";
 import vazio from "../images/vazia.jpg";
+import trivia from "../images/trivia.gif";
+import receitas from "../images/receitas.gif";
 
 export {
   css,
@@ -28,4 +30,6 @@ export {
   ouropreto,
   express,
   vazio,
+  trivia,
+  receitas
 };

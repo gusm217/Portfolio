@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import * as allImgs from "../components/AllImgs";
+import * as allImgs from "../components/AllImages";
 import "../styles/style.css";
 
 export default function About() {
