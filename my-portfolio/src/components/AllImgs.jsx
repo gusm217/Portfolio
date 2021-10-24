@@ -11,6 +11,7 @@ import react from "../images/react.png";
 import redux from "../images/redux.png";
 import ouropreto from "../images/ouropreto.jpg";
 import express from "../images/express.png";
+import vazio from "../images/vazia.jpg";
 
 export {
   css,
@@ -26,4 +27,5 @@ export {
   redux,
   ouropreto,
   express,
+  vazio,
 };

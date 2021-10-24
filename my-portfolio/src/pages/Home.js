@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className="bg-black container-fluid">
-        <div className="d-flex flex-column align-items-center">
+      <section className="grad-background container-fluid">
+        <div
+          style={{ paddingBottom: "200px" }}
+          className="d-flex flex-column align-items-center pt-3"
+        >
           <section className="col-6 d-flex justify-content-center mt-5">
             <img
               className="profilepic"
@@ -19,7 +22,7 @@ export default function Home() {
             />
           </section>
           <section className="col-6 px-5 mt-5">
-            <p style={{ color: "white" }}>
+            <p>
               "Hi there! I'm a Fullstack Developer to be from Brazil, currently
               studying Back-end at a fulltime coding school called Trybe. Here
               are some stacks I have learned and worked with and at the top you
@@ -29,8 +32,8 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <Contact />
       </section>
+      <Contact />
     </div>
   );
 }

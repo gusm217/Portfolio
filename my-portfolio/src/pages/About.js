@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
 import * as allImgs from "../components/AllImgs";
+import "../styles/style.css";
 
 export default function About() {
   return (
     <div>
       <Header />
-      <section className="bg-black container-fluid pt-5 vh-100">
+      <section className="grad-background container-fluid pt-5 vh-100">
         <section className="d-flex align-items-center">
           <div className="col-6 d-flex justify-content-center">
             <img

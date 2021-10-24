@@ -7,7 +7,7 @@ export default function Contact() {
     <div>
       <section
         id="contact-me-section"
-        className="gap container d-flex flex-column"
+        className="gap-top bg-black container-fluid d-flex flex-column"
       >
         <h3
           style={{ fontWeight: "700", color: "white" }}
@@ -17,14 +17,14 @@ export default function Contact() {
         </h3>
         <form
           className="w-50 d-flex flex-column align-self-center"
-          action="https://formsubmit.co/el/dumowe"
+          action="https://formsubmit.co/gusm217@gmail.com"
           method="POST"
         >
           <input
             className="form-control mt-2"
             type="text"
             name="name"
-            placeholder="your full name please"
+            placeholder="your full name, please"
             required
           />
           <input
@@ -37,13 +37,13 @@ export default function Contact() {
           <input
             className="form-control mt-2"
             type="number"
-            name="phone-number"
+            name="number"
             placeholder="your best phone number"
           />
-          <input
-            type="text"
+          <textarea
             className="form-control mt-2"
             placeholder="your text here..."
+            name="textarea"
             minLength="50"
             required
           />
@@ -51,7 +51,7 @@ export default function Contact() {
             Submit
           </button>
         </form>
-        <div className="d-flex justify-content-center align-items-center mt-2">
+        <div className="gap-bot d-flex justify-content-center align-items-center mt-2">
           <a href="https://github.com/gusm217" target="_blank" rel="noreferrer">
             <img width="50px" src={githubIcon} alt="imagem ícone github" />
           </a>
