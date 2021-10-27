@@ -14,6 +14,8 @@ import express from "../images/express.png";
 import vazio from "../images/vazia.jpg";
 import trivia from "../images/trivia.gif";
 import receitas from "../images/receitas.gif";
+import usa from "../images/usa-flag.png";
+import brazil from "../images/brazil-flag.png";
 
 export {
   css,
@@ -31,5 +33,7 @@ export {
   express,
   vazio,
   trivia,
-  receitas
+  receitas,
+  usa,
+  brazil,
 };

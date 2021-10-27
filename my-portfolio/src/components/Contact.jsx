@@ -1,6 +1,7 @@
 import React from "react";
 import githubIcon from "../images/github.png";
 import linkedinIcon from "../images/linkedin.jpg";
+import whastappIcon from "../images/whatsapp.png";
 
 export default function Contact() {
   return (
@@ -53,14 +54,21 @@ export default function Contact() {
         </form>
         <div className="gap-bot d-flex justify-content-center align-items-center mt-2">
           <a href="https://github.com/gusm217" target="_blank" rel="noreferrer">
-            <img width="50px" src={githubIcon} alt="imagem ícone github" />
+            <img width="40px" src={githubIcon} alt="imagem ícone github" />
           </a>
           <a
             href="https://linkedin.com/in/gusm217"
             target="_blank"
             rel="noreferrer"
           >
-            <img width="100px" src={linkedinIcon} alt="imagem ícone github" />
+            <img width="90px" src={linkedinIcon} alt="imagem ícone github" />
+          </a>
+          <a
+            href="https://linkedin.com/in/gusm217"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img width="40px" src={whastappIcon} alt="imagem ícone github" />
           </a>
         </div>
       </section>
