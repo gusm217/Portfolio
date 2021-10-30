@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/gusm217.github.io/static/css/main.fbc46532.chunk.css",
+    "main.js": "/gusm217.github.io/static/js/main.ca291040.chunk.js",
+    "main.js.map": "/gusm217.github.io/static/js/main.ca291040.chunk.js.map",
+    "runtime-main.js": "/gusm217.github.io/static/js/runtime-main.c590adba.js",
+    "runtime-main.js.map": "/gusm217.github.io/static/js/runtime-main.c590adba.js.map",
+    "static/css/2.f2512455.chunk.css": "/gusm217.github.io/static/css/2.f2512455.chunk.css",
+    "static/js/2.db6935aa.chunk.js": "/gusm217.github.io/static/js/2.db6935aa.chunk.js",
+    "static/js/2.db6935aa.chunk.js.map": "/gusm217.github.io/static/js/2.db6935aa.chunk.js.map",
+    "static/js/3.77e0b6d6.chunk.js": "/gusm217.github.io/static/js/3.77e0b6d6.chunk.js",
+    "static/js/3.77e0b6d6.chunk.js.map": "/gusm217.github.io/static/js/3.77e0b6d6.chunk.js.map",
+    "index.html": "/gusm217.github.io/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/gusm217.github.io/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.fbc46532.chunk.css.map": "/gusm217.github.io/static/css/main.fbc46532.chunk.css.map",
+    "static/js/2.db6935aa.chunk.js.LICENSE.txt": "/gusm217.github.io/static/js/2.db6935aa.chunk.js.LICENSE.txt",
+    "static/media/brazil-flag.7fd0233c.png": "/gusm217.github.io/static/media/brazil-flag.7fd0233c.png",
+    "static/media/css.5491a3b0.png": "/gusm217.github.io/static/media/css.5491a3b0.png",
+    "static/media/express.0526f2be.png": "/gusm217.github.io/static/media/express.0526f2be.png",
+    "static/media/git.396a5b09.png": "/gusm217.github.io/static/media/git.396a5b09.png",
+    "static/media/github.3ec61b93.png": "/gusm217.github.io/static/media/github.3ec61b93.png",
+    "static/media/html.397540de.png": "/gusm217.github.io/static/media/html.397540de.png",
+    "static/media/mongo.bf804240.png": "/gusm217.github.io/static/media/mongo.bf804240.png",
+    "static/media/mysql.ddd2c1c9.png": "/gusm217.github.io/static/media/mysql.ddd2c1c9.png",
+    "static/media/node.8755afe2.png": "/gusm217.github.io/static/media/node.8755afe2.png",
+    "static/media/ouropreto.9e64732a.jpg": "/gusm217.github.io/static/media/ouropreto.9e64732a.jpg",
+    "static/media/profilepic.ed8a997b.png": "/gusm217.github.io/static/media/profilepic.ed8a997b.png",
+    "static/media/react.598c2743.png": "/gusm217.github.io/static/media/react.598c2743.png",
+    "static/media/receitas.5a63f420.gif": "/gusm217.github.io/static/media/receitas.5a63f420.gif",
+    "static/media/redux.4bebbe1e.png": "/gusm217.github.io/static/media/redux.4bebbe1e.png",
+    "static/media/trivia.18556898.gif": "/gusm217.github.io/static/media/trivia.18556898.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c590adba.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.db6935aa.chunk.js",
+    "static/css/main.fbc46532.chunk.css",
+    "static/js/main.ca291040.chunk.js"
+  ]
+}
