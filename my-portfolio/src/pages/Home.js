@@ -1,5 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import profilepic from "../images/profilepic.png";
 import Contact from "../components/Contact";
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className="grad-background container-fluid">
+      <section className="d-none d-xl-block d-xxl-none grad-background container-fluid">
         <div
           style={{ paddingBottom: "200px" }}
           className="d-flex flex-column align-items-center pt-3"
@@ -29,7 +30,7 @@ export default function Home() {
               pessoas desenvolvedoras, conciliando soft-skills, hard-skills e
               metodologias ágeis. Abaixo estão algumas stacks que já tive e
               estou atualmente em contato. Fique a vontade para entrar em
-              contato e obrigado pela visita =)
+              contato e obrigado pela visita =D
             </p>
           </section>
           <section>
@@ -52,6 +53,74 @@ export default function Home() {
             </div>
           </section>
         </div>
+      </section>
+      {/* MOBILE */}
+      <section className="d-xl-none grad-background container-fluid">
+        <section className="d-flex flex-column align-items-center justify-content-center vh-100">
+          <img
+            className="profilepic mb-5"
+            src={profilepic}
+            alt="Foto do profile"
+          />
+          <h2 style={{ color: "white", fontWeight: 600 }}>Olá! </h2>
+          <p className="mb-5 text-justify">
+            Sou Gustavo Mendes <br />
+            desenvolvedor fullstack!
+          </p>
+          <section className="d-flex justify-content-center">
+            <div className="col d-flex flex-column ">
+              <a
+                href="https://linkedin.com/in/gusm217"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="neonIcon"
+                  width="40%"
+                  src={allImgs.linkedin}
+                  alt="icone do linkedin"
+                />
+                ;
+              </a>
+              <a
+                href="https://github.com/gusm217"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="neonIcon p-2"
+                  width="40%"
+                  src={allImgs.github}
+                  alt="icone do github"
+                />
+                ;
+              </a>
+            </div>
+            <div className="col d-flex flex-column">
+              <Link to="/projects">
+                <img
+                  className="neonIcon p-2"
+                  width="40%"
+                  src={allImgs.project2}
+                  alt="icone de projetos"
+                />
+              </Link>
+              <a
+                href="https://api.whatsapp.com/send?phone=5531980108617"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="neonIcon"
+                  width="40%"
+                  src={allImgs.whatsBranco}
+                  alt="icone do whatsapp"
+                />
+                ;
+              </a>
+            </div>
+          </section>
+        </section>
       </section>
       <Contact />
     </div>
