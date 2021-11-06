@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "../components/Header";
-import * as AllImages from "../components/AllImages";
-import trivia from "../images/trivia.gif";
-import receitas from "../images/receitas.gif";
-import { Link } from "react-router-dom";
+import React from 'react';
+import Header from '../components/Header';
+import * as AllImages from '../components/AllImages';
+import trivia from '../images/trivia.gif';
+import receitas from '../images/receitas.gif';
+import { Link } from 'react-router-dom';
 
 export default function Portfolio() {
   return (
@@ -13,14 +13,14 @@ export default function Portfolio() {
         <div className="col d-flex justify-content-center align-items-center">
           <img
             className="col-3 my-3"
-            style={{ width: "20%" }}
+            style={{ width: '20%' }}
             src={receitas}
             alt="imagem vazia a ser preenchida por um print de um projeto"
           />
           <section className="col-6 d-flex align-items-center flex-column">
             <h3
               className="neonHeader-effect"
-              style={{ color: "yellow", fontSize: "22px", fontWeight: 700 }}
+              style={{ color: 'yellow', fontSize: '22px', fontWeight: 700 }}
             >
               cook time
             </h3>
@@ -41,14 +41,14 @@ export default function Portfolio() {
           {/* colocar gifs dos projetos */}
           <img
             className="col-3 mb-3"
-            style={{ width: "20%" }}
+            style={{ width: '20%' }}
             src={trivia}
             alt="imagem vazia a ser preenchida por um print de um projeto"
           />
           <section className="col-6 d-flex align-items-center flex-column">
             <h3
               className="neonHeader-effect"
-              style={{ color: "yellow", fontSize: "22px", fontWeight: 700 }}
+              style={{ color: 'yellow', fontSize: '22px', fontWeight: 700 }}
             >
               trivia
             </h3>
@@ -68,14 +68,14 @@ export default function Portfolio() {
           {/* colocar gifs dos projetos */}
           <img
             className="col-3"
-            style={{ width: "20%" }}
+            style={{ width: '20%' }}
             src={AllImages.vazio}
             alt="imagem vazia a ser preenchida por um print de um projeto"
           />
           <section className="col-6 d-flex align-items-center flex-column">
             <h3
               className="neonHeader-effect"
-              style={{ color: "yellow", fontSize: "22px", fontWeight: 700 }}
+              style={{ color: 'yellow', fontSize: '22px', fontWeight: 700 }}
             >
               Trivia Project
             </h3>
@@ -101,7 +101,7 @@ export default function Portfolio() {
             />
           </Link>
           <p
-            style={{ fontWeight: 700, fontSize: "large" }}
+            style={{ fontWeight: 700, fontSize: 'large' }}
             className="neonFont p-3"
           >
             projetos
@@ -110,13 +110,13 @@ export default function Portfolio() {
         <section className="d-flex flex-column align-items-center">
           <h3
             className="neonHeader-effect"
-            style={{ color: "yellow", fontSize: "18px", fontWeight: 700 }}
+            style={{ color: 'yellow', fontSize: '18px', fontWeight: 700 }}
           >
             cook time
           </h3>
           <img
             className="col-3 my-3"
-            style={{ width: "100%" }}
+            style={{ width: '100%' }}
             src={receitas}
             alt="imagem vazia a ser preenchida por um print de um projeto"
           />
@@ -125,7 +125,7 @@ export default function Portfolio() {
             <img width="30px" src={AllImages.redux} alt="icone redux" />
             <img width="30px" src={AllImages.css} alt="icone css" />
           </div>
-          <p className="px-2">
+          <p style={{ textAlign: 'justify' }} className="px-2">
             O projeto de receitas é um trabalho em equipe para mobile, onde por
             meio de uma api, listamos uma variedade de refeições nas categorias:
             comidas e bebidas; contando também com features como: autenticação
@@ -137,13 +137,13 @@ export default function Portfolio() {
         <section className="d-flex flex-column align-items-center mt-4">
           <h3
             className="neonHeader-effect"
-            style={{ color: "yellow", fontSize: "18px", fontWeight: 700 }}
+            style={{ color: 'yellow', fontSize: '18px', fontWeight: 700 }}
           >
             trivia
           </h3>
           <img
             className="col-3 my-3"
-            style={{ width: "100%" }}
+            style={{ width: '100%' }}
             src={trivia}
             alt="imagem vazia a ser preenchida por um print de um projeto"
           />
@@ -152,7 +152,7 @@ export default function Portfolio() {
             <img width="30px" src={AllImages.redux} alt="icone redux" />
             <img width="30px" src={AllImages.css} alt="icone css" />
           </div>
-          <p className="px-2 mb-4">
+          <p style={{ textAlign: 'justify' }} className="px-2 mb-4">
             Trivia é um jogo de perguntas e respostas, onde por meio de uma api,
             são disponibilizadas questões sobre conhecimentos gerais. Vence
             aquele que pontuar mais rapidamente e no final, há um ranking com as

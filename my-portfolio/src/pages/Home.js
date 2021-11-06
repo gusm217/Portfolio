@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 // import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
-import Header from "../components/Header";
-import profilepic from "../images/profilepic.png";
-import Contact from "../components/Contact";
-import "../styles/style.css";
-import * as allImgs from "../components/AllImages";
+import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+import profilepic from '../images/profilepic.png';
+import Contact from '../components/Contact';
+import '../styles/style.css';
+import * as allImgs from '../components/AllImages';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <section className="d-none d-xl-block d-xxl-none grad-background container-fluid">
         <div
-          style={{ paddingBottom: "200px" }}
+          style={{ paddingBottom: '200px' }}
           className="d-flex flex-column align-items-center pt-3"
         >
           <section className="col-6 d-flex justify-content-center mt-3">
@@ -62,49 +62,51 @@ export default function Home() {
             src={profilepic}
             alt="Foto do profile"
           />
-          <h2 style={{ color: "white", fontWeight: 600 }}>Olá! </h2>
-          <p className="mb-5 text-justify">
+          <h2 style={{ color: 'white', fontWeight: 600 }}>Olá! </h2>
+          <p style={{ textAlign: 'center' }} className="mb-5">
             Sou Gustavo Mendes <br />
-            desenvolvedor fullstack!
+            desenvolvedor fullstack! <br />
+            Abaixo segue meus contatos e portfólio de projetos. Obrigado pela
+            visita =)
           </p>
-          <section className="d-flex justify-content-center">
-            <div className="col d-flex flex-column ">
+          <section className="d-flex flex-column justify-content-center ms-4 ps-5">
+            <div className="col mb-4">
               <a
                 href="https://linkedin.com/in/gusm217"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="neonIcon"
-                  width="40%"
+                  className="neonIcon me-3"
+                  width="30%"
                   src={allImgs.linkedin}
                   alt="icone do linkedin"
                 />
                 ;
               </a>
+              <Link to="/projects">
+                <img
+                  className="neonIcon p-2"
+                  width="30%"
+                  src={allImgs.project2}
+                  alt="icone de projetos"
+                />
+              </Link>
+            </div>
+            <div className="col">
               <a
                 href="https://github.com/gusm217"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  className="neonIcon p-2"
-                  width="40%"
+                  className="neonIcon p-2 me-3"
+                  width="30%"
                   src={allImgs.github}
                   alt="icone do github"
                 />
                 ;
               </a>
-            </div>
-            <div className="col d-flex flex-column">
-              <Link to="/projects">
-                <img
-                  className="neonIcon p-2"
-                  width="40%"
-                  src={allImgs.project2}
-                  alt="icone de projetos"
-                />
-              </Link>
               <a
                 href="https://api.whatsapp.com/send?phone=5531980108617"
                 target="_blank"
@@ -112,7 +114,7 @@ export default function Home() {
               >
                 <img
                   className="neonIcon"
-                  width="40%"
+                  width="30%"
                   src={allImgs.whatsBranco}
                   alt="icone do whatsapp"
                 />
