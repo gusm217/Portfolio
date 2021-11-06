@@ -23,7 +23,7 @@ export default function Home() {
               alt="Foto do profile"
             />
           </section>
-          <section className="col-6 px-5 mt-4">
+          <section style={{ textAlign: 'justify' }} className="col-6 px-5 mt-4">
             <p>
               Olá, seja bem vindo! Sou Gustavo Mendes, futuro desenvolvedor de
               software Fullstack pela Trybe, uma escola com foco na formação de

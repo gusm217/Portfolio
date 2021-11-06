@@ -24,7 +24,7 @@ export default function Portfolio() {
             >
               cook time
             </h3>
-            <p className="ms-5">
+            <p style={{ textAlign: 'justify' }} className="ms-5">
               O projeto de receitas é um trabalho em equipe para mobile, onde
               por meio de uma api, listamos uma variedade de refeições nas
               categorias: comidas e bebidas; contando também com features como:
@@ -52,7 +52,7 @@ export default function Portfolio() {
             >
               trivia
             </h3>
-            <p className="ms-5">
+            <p style={{ textAlign: 'justify' }} className="ms-5">
               Trivia é um jogo de perguntas e respostas, onde por meio de uma
               api, são disponibilizadas questões sobre conhecimentos gerais.
               Vence aquele que pontuar mais rapidamente e no final, há um
@@ -64,9 +64,9 @@ export default function Portfolio() {
             </p>
           </section>
         </div>
-        <div className="col d-flex justify-content-center align-items-center">
-          {/* colocar gifs dos projetos */}
-          <img
+        {/* <div className="col d-flex justify-content-center align-items-center"> */}
+        {/* colocar gifs dos projetos */}
+        {/* <img
             className="col-3"
             style={{ width: '20%' }}
             src={AllImages.vazio}
@@ -87,7 +87,7 @@ export default function Portfolio() {
               "
             </p>
           </section>
-        </div>
+        </div> */}
       </section>
       {/* MOBILE */}
       <section className="d-xl-none grad-background container-fluid">
