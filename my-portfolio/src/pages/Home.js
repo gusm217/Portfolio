@@ -58,7 +58,7 @@ export default function Home() {
       <section className="d-xl-none grad-background container-fluid">
         <section className="d-flex flex-column align-items-center justify-content-center vh-100">
           <img
-            className="profilepic mb-5"
+            className="profilepic mb-3"
             src={profilepic}
             alt="Foto do profile"
           />
@@ -66,10 +66,10 @@ export default function Home() {
           <p style={{ textAlign: 'center' }} className="mb-5">
             Sou Gustavo Mendes <br />
             desenvolvedor fullstack! <br />
-            Abaixo segue meus contatos e portfólio de projetos. Obrigado pela
-            visita =)
+            Abaixo estão alguns contatos e potfólio <br /> onde pode conhecer
+            alguns dos meus projetos =)
           </p>
-          <section className="d-flex flex-column justify-content-center ms-4 ps-5">
+          <section className="d-flex flex-column justify-content-center ms-4 mb-2 ps-5">
             <div className="col mb-4">
               <a
                 href="https://linkedin.com/in/gusm217"
