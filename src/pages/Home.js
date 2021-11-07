@@ -25,9 +25,9 @@ export default function Home() {
           </section>
           <section style={{ textAlign: 'justify' }} className="col-6 px-5 mt-4">
             <p>
-              Olá, seja bem vindo! Sou Gustavo Mendes, futuro desenvolvedor de
-              software Fullstack pela Trybe, uma escola com foco na formação de
-              pessoas desenvolvedoras, conciliando soft-skills, hard-skills e
+              Olá, seja bem vindo! Sou Gustavo Mendes, desenvolvedor de software
+              Fullstack pela Trybe, uma escola com foco na formação de pessoas
+              desenvolvedoras, conciliando soft-skills, hard-skills e
               metodologias ágeis. Abaixo estão algumas stacks que já tive e
               estou atualmente em contato. Fique a vontade para entrar em
               contato e obrigado pela visita =D
@@ -62,15 +62,12 @@ export default function Home() {
             src={profilepic}
             alt="Foto do profile"
           />
-          <h2 style={{ color: 'white', fontWeight: 600 }}>Olá! </h2>
-          <p style={{ textAlign: 'center' }} className="mb-5">
-            Sou Gustavo Mendes <br />
-            desenvolvedor fullstack! <br />
-            Abaixo estão alguns contatos e potfólio <br /> onde pode conhecer
-            alguns dos meus projetos =)
+          <h2 style={{ color: 'white', fontWeight: 600 }}>Hi! </h2>
+          <p style={{ textAlign: 'center', fontWeight: 600 }} className="mb-5">
+            Sou Gustavo Mendes <br /> desenvovedor fullstack!
           </p>
           <section className="d-flex flex-column justify-content-center ms-4 mb-2 ps-5">
-            <div className="col mb-4">
+            <div className="col mb-4 ms-1">
               <a
                 href="https://linkedin.com/in/gusm217"
                 target="_blank"
@@ -93,7 +90,7 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="col">
+            <div className="col ms-1">
               <a
                 href="https://github.com/gusm217"
                 target="_blank"
