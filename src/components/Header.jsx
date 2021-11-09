@@ -6,7 +6,7 @@ export default function Header() {
   let history = useHistory();
   function contactRoute() {
     if (window.location.pathname !== '/') {
-      history.push('/');
+      history.push('/Portfolio/home');
     }
   }
 
@@ -18,7 +18,7 @@ export default function Header() {
             activeStyle={{ color: 'yellow' }}
             className="neonFont"
             style={{ textDecoration: 'none', color: 'white' }}
-            to="/home"
+            to="/Portfolio/home"
           >
             home
           </NavLink>
@@ -28,7 +28,7 @@ export default function Header() {
             activeStyle={{ color: 'yellow' }}
             className="neonFont"
             style={{ textDecoration: 'none', color: 'white' }}
-            to="/projects"
+            to="/Portfolio/projects"
           >
             projects
           </NavLink>
