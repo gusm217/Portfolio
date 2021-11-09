@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 // import githubIcon from "../images/github.png";
 // import linkedinIcon from "../images/linkedin.jpg";
-import * as allImages from "../components/AllImages";
+import * as allImages from '../components/AllImages';
 
 export default function Contact() {
   return (
-    <div className="d-none d-xl-block d-xxl-none">
+    <div className="d-none d-xl-block">
       <section
         id="contact-me-section"
         className=" gap-top bg-black container-fluid d-flex flex-column"
       >
         <h3
-          style={{ fontWeight: "700", color: "white" }}
+          style={{ fontWeight: '700', color: 'white' }}
           className="align-self-center"
         >
           contact me

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className="d-none d-xl-block d-xxl-none grad-background container-fluid">
+      <section className="d-none d-xl-block grad-background container-fluid">
         <div
           style={{ paddingBottom: '200px' }}
           className="d-flex flex-column align-items-center pt-3"

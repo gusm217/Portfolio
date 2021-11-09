@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
     <div>
       <Header />
-      <section className="d-none d-xl-block d-xxl-none grad-background container-fluid vh-100 pt-5">
+      <section className="d-none d-xl-block grad-background container-fluid vh-100 pt-5">
         <div className="col d-flex justify-content-center align-items-center">
           <img
             className="col-3 my-3"

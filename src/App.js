@@ -1,21 +1,24 @@
-import "./App.css";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-import Home from "./pages/Home.js";
-import About from "./pages/About";
-import Portfolio from "./pages/Projects";
+import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
+import Home from './pages/Home.js';
+import Projects from './pages/Projects';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
         <Route exact path="/home" component={Home} />
-        <Route exact path="/projects" component={Portfolio} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
