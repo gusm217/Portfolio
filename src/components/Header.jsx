@@ -12,36 +12,36 @@ export default function Header() {
 
   return (
     <div className="d-none d-xl-block">
-      <section className="header navbar d-flex justify-content-end p-3 pe-5">
-        <section className="mx-4">
+      <section className="header navbar bg-black d-flex justify-content-end p-3 pe-5">
+        <section className="mx-5">
           <NavLink
-            activeStyle={{ color: 'yellow' }}
+            activeStyle={{ color: 'white' }}
             className="neonFont"
             style={{ textDecoration: 'none', color: 'white' }}
             to="/Portfolio/home"
           >
-            home
+            HOME
           </NavLink>
         </section>
-        <section className="mx-4">
-          <NavLink
-            activeStyle={{ color: 'yellow' }}
-            className="neonFont"
-            style={{ textDecoration: 'none', color: 'white' }}
-            to="/Portfolio/projects"
-          >
-            projects
-          </NavLink>
-        </section>
-        <section className="mx-4">
+        <section className="mx-5">
           <a
             onClick={() => contactRoute()}
             className="neonFont"
             style={{ textDecoration: 'none', color: 'white' }}
             href="#contact-me-section"
           >
-            contact
+            SOBRE
           </a>
+        </section>
+        <section className="mx-5">
+          <NavLink
+            activeStyle={{ color: 'white' }}
+            className="neonFont"
+            style={{ textDecoration: 'none', color: 'white' }}
+            to="/Portfolio/projects"
+          >
+            PROJETOS
+          </NavLink>
         </section>
       </section>
     </div>

@@ -92,7 +92,7 @@ export default function Portfolio() {
       {/* MOBILE */}
       <section className="d-xl-none grad-background container-fluid">
         <section className="d-flex align-items-center">
-          <Link to="/home">
+          <Link to="/Portfolio/home">
             <img
               className="ms-2"
               width="15%"
